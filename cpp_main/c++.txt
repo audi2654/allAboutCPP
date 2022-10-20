@@ -1,0 +1,15 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+int main() {
+    // Write C++ code here
+    std::cout << "Hello world!"<< std::endl;
+    int i('a'); //i('97'), i('a')
+    //char i(97); //i(a), i('97')
+    for(; i <= 122; i++);{
+        std::cout<<"Lassan 100 Times"<<std::endl;
+        std::cout<<i;
+    }
+
+    return 0;
+}

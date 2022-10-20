@@ -1,0 +1,1000 @@
+  197  sudo sh script.sh
+  198  snap version
+  199  du -h
+  200  df -h
+  201  snap list
+  202  sudo apt autoremove
+  203  uname -r
+  204  history
+  205  dpkg --get-selections | grep linux-image
+  206  dpkg -l linux-image-* linux-headers-*
+  207  sudo apt-get install bikeshed
+  208  sudo apt-get autoremove
+  209  sudo apt-get remove
+  210  sudo apt-get autoremove --purge
+  211  df -a
+  212  dpkg
+  213  dpkg --help
+  214  dpkg -l
+  215  dpkg --get-selections
+  216  lsv_release
+  217  lsb_release
+  218  lsv_release -a
+  219  lsb_release -a
+  220  ckear
+  221  clear
+  222  lsb_release -a -d
+  223  lsb_release -c -d
+  224  lsb_release -cd
+  225  lsb_release -dc
+  226  lsb_release --d--c
+  227  lsb_release --d --c
+  228  lsb_release --description --codename
+  229  clear
+  230  gcc -v
+  231  gcc --v
+  232  lsb_release --d
+  233  gcc --version
+  234  g++ --version
+  235  g++ -v
+  236  ls
+  237  cd Desktop
+  238  ls
+  239  mkdir cpp_course
+  240  cd cpp-course
+  241  cd cpp_course
+  242  ls
+  243  cat > hello.cpp
+  244  g++ hello.cpp
+  245  ./a.out
+  246  g++ -c hello.cpp
+  247  ls
+  248  gedit hello.o
+  249  g++ - hello.cpp
+  250  g++ -o hello.cpp
+  251  g++ -o hello.o
+  252  g++ -o bye hello.o
+  253  ls
+  254  bye
+  255  ./bye
+  256  ./a.out
+  257  cpp hello.c > hello.i
+  258  gcc hello.c > hello.i
+  259  g++ hello.c > hello.i
+  260  ls
+  261  cpp hello.cpp > hello.i
+  262  ls
+  263  gedit hello.i
+  264  g++ -E hello.cpp > hello.i
+  265  ls
+  266  g++ -E hello.cpp > hello2.i
+  267  ls
+  268  rm hello.i
+  269  ls
+  270  rm hello.o
+  271  rm hello.2.i
+  272  rm hello2.i
+  273  rm bye
+  274  rm a.out
+  275  ls
+  276  g++ hello.cpp
+  277  g++ -c hello.cpp
+  278  ls
+  279  rm a.out
+  280  g++ -o hello.cpp
+  281  g++ -o hello.o
+  282  g++ -o none hello.o
+  283  ls
+  284  g++ hello.cpp
+  285  ls
+  286  cpp hello.cpp > hello.i
+  287  l
+  288  ls
+  289  cpp hello.cpp > preprocess.i
+  290  ls
+  291  g++ -E hello.cpp > preprocess2.i
+  292  ls
+  293  rm hello.i
+  294  ls
+  295  ls -al
+  296  gcc -E hello.cpp > preprocess_gcc.i
+  297  g++ -E hello.cpp > preprocess_g++.i
+  298  cpp hello.cpp > preprocess_cpp.i
+  299  ls
+  300  ls -al
+  301  rm preprocess.i preprocess.i
+  302  rm preprocess2.i preprocess.i
+  303  rm preprocess.i
+  304  ls
+  305  ls -al
+  306  g++ -o obj2bin_g++_ hello.o
+  307  ls -al
+  308  g++ -o obj2bin_g++ hello.o
+  309  rm obj2bin_g++_
+  310  ls
+  311  gcc -o obj2bin_gcc hello.o
+  312  cpp -o obj2bin_gcc hello.o
+  313  clear
+  314  ls -al
+  315  history
+  316  ls -al
+  317  rm hello.o
+  318  df -T
+  319  g++ -c hello.cpp
+  320  ls
+  321  g++ hello.cpp
+  322  ls
+  323  g++ -o hello.o
+  324  g++ -o a hello.o
+  325  ls
+  326  g++ -c hello.cppls -al
+  327  ls -al
+  328  history
+  329  ls
+  330  cpp hello.cpp > hello.i
+  331  gcc -E  hello.cpp > hello.i
+  332  g++ -E  hello.cpp > hello.i
+  333  ls -al
+  334  cpp hello.i > hello.s
+  335  gcc -S hello.i
+  336  g++ -S hello.i
+  337  cpp hello.i > hello.s
+  338  g++ -S hello.i
+  339  as -o hello.as hello.s
+  340  gedit hello.as
+  341  ls -as
+  342  ls -s
+  343  ls -l
+  344  ls -al
+  345  ld -o hello hello.o
+  346  ld -o hello hello.o ...libraries...
+  347  ld -o hello hello.o
+  348  ld -o hello hello.o ...libraries...
+  349  hello
+  350  ./hello
+  351  chmod a+x hello
+  352  gcc -v -o hello.exe hello.cpp
+  353  g++ -v -o hello.exe hello.cpp
+  354  g++ -v -o hello hello.cpp
+  355  hello
+  356  ./hello
+  357  history
+  358  ./a.out
+  359  ./a
+  360  ./hello
+  361  ./nome
+  362  ./none
+  363  clear
+  364  nano -v
+  365  nano --version
+  366  nano --v
+  367  nano nano.txt
+  368  nano
+  369  nano nano.txt
+  370  cat nano.txt
+  371  nano nano.txt
+  372  cat nano.txt
+  373  nano nano.txt
+  374  cat nano.txt
+  375  nano nano.txt
+  376  history
+  377  g++ -E hello.cpp
+  378  cd Desktop/cpp_course 
+  379  ls -al
+  380  gedit hello.i
+  381  sudo apt purge firefox
+  382  sudo apt update
+  383  history
+  384  sudo apt autoremove
+  385  sudo apt autoclean
+  386  sudo apt upgrade
+  387  sudo apt install firefox
+  388  PING 192.168.1.1
+  389  ping 192.168.1.1
+  390  sudo apt install firefox
+  391  sudo dhclient eth0
+  392  sudo lshw -C network
+  393  sudo dhclient enp2s0
+  394  ping 192.168.1.1
+  395  sudo apt install firefox
+  396  sudo apt update
+  397  lly worked! I just realized that the problem was not on the system but instead how the system connects and retrieves data from the internet. lly worked! I just realized that the problem was not on the system but instead how the system connects and retrieves data from the internet. 
+  398  sudo network
+  399  sudo apt-get install firefox
+  400  sudo apt install firefox
+  401  sudo bash -c 'echo "nameserver 127.0.0.1" >> /etc/resolv.conf'
+  402  sudo apt install firefox
+  403  sudo apt update
+  404  sudo dhclient enp2s0
+  405  sudo apt install firefox
+  406  ping 192.168.1.1
+  407  sudo apt install firefox
+  408  sudo apt install mozilla-firefox
+  409  sudo apt update
+  410  sudo apt upgrade
+  411  sudo apt update
+  412  sudo apt install firefox
+  413  sl
+  414  sudo apt install sl
+  415  sudo apt-get install sl
+  416  sl
+  417  sudo apt-get install firefox
+  418  sudo apt purge sl
+  419  sudo apt install sl
+  420  sudo apt purge firefox
+  421  sudo apt update
+  422  sudo apt install firefox
+  423  sudo apt-get update
+  424  sudo apt-get upgrade
+  425  sudo apt purge firefox
+  426  sudo nautilus
+  427  sudo apt update
+  428  nslookup security.ubuntu.com
+  429  sudo gedit /etc/resolv.conf
+  430  sudo apt update
+  431  sudo apt-get update
+  432  sudo apt upgrade
+  433  sudo apt-get upgrade
+  434  sudo apt update
+  435  sudo bash -c 'echo "nameserver 127.0.0.1" >> /etc/resolv.conf'
+  436  sudo apt update
+  437  sudo apt install sl
+  438  sudo apt purge -- firefox
+  439  sudo apt-get --purge autoremove firefox
+  440  sudo apt update
+  441  sudo apt upgrade
+  442  sudo apt install firefox
+  443  sudo apt --purge autoremove microsoft-edge-dev
+  444  sudo apt update
+  445  sudo apt update
+  446  timedatectl set-local-rtc 1 --adjust-system-clock
+  447  timedatectl
+  448  watch -n 2 sensors
+  449  sudo sensers-detect
+  450  sudo watch -n 2 sensors
+  451  sudo apt-get install lm-sensors
+  452  sudo sensers-detect
+  453  sudo sensors-detect
+  454  sudo watch -n 2 sensors
+  455  watch -n 2 sensors
+  456  cd Desktop/cpp_course
+  457  ls
+  458  history
+  459  cat pr.cpp
+  460  cat >pr.cpp
+  461  nano pr.cpp
+  462  g++ -o pr.cpp
+  463  history
+  464  g++ -o a pr.cpp
+  465  ls
+  466  ./a
+  467  nano pr.cpp
+  468  g++ -o a pr.cpp
+  469  nano pr.cpp
+  470  g++ -o a pr.cpp
+  471  ./a
+  472  rm a
+  473  ls
+  474  rm a.out none
+  475  ls
+  476  rm hello hello.exe
+  477  ls
+  478  cd Desktop/cpp_course
+  479  ls
+  480  g++
+  481  g++ -E pr.cpp
+  482  clear
+  483  cd Desktop/cpp_course
+  484  g++ -E pr.cpp
+  485  clear
+  486  hisotry
+  487  history
+  488  cd Desktop/cpp_course
+  489  g++ -S pr.cpp
+  490  nano pr.s
+  491  watch -n 2 sensors
+  492  g++ -c pr.cpp
+  493  ls
+  494  nano pr.o
+  495  hexdump pr.o
+  496  objdump -d pr.o
+  497  objdump pr.o
+  498  objdump --full-contents pr.o
+  499  objdump -s pr.o
+  500  objdump -S pr.o
+  501  clear
+  502  history
+  503  cpp pr.cpp
+  504  cpp pr.cpp > z
+  505  nano z
+  506  clear
+  507  history
+  508  cpp z
+  509  ls
+  510  cpp pr.cpp > z.i
+  511  cpp z.i
+  512  clear
+  513  history
+  514  ls
+  515  rm pr.s
+  516  ls
+  517  cpp pr.cpp
+  518  ls
+  519  clear
+  520  history
+  521  ls
+  522  cpp pr.cpp
+  523  ls
+  524  clear
+  525  history
+  526  ls
+  527  gcc -S z.i
+  528  g++ -S z.i
+  529  ls
+  530  g++ -S pr.i
+  531  cpp pr.cpp > pr.i
+  532  ls
+  533  g++ -S pr.i
+  534  ls
+  535  cpp pr.i > pr.s
+  536  g++ -S pr.i
+  537  rm pr.s
+  538  g++ -S pr.i
+  539  cpp pr.i > pr.s
+  540  g++ -S pr.i
+  541  cpp pr.cpp > pr.i
+  542  cpp pr.i > pr
+  543  cpp pr.i > pr2
+  544  cpp pr.i > pr3
+  545  g++ -E pr.cpp
+  546  g++ -E pr.cpp > pr.b
+  547  gcc -E pr.cpp > pr.c
+  548  g++ -S pr.i
+  549  g++ -S pr.cpp
+  550  g++ -S pr.s
+  551  g++ -S pr.s > pr.z
+  552  gcc -S pr.s
+  553  gcc -S pr.s > pr.z
+  554  gcc -S pr.cpp > pr.z
+  555  gcc -S pr.cpp
+  556  g++ -S pr.cpp
+  557  g++ -S pr.cpp > pr.tts
+  558  g++ -E pr.cpp > pr.i
+  559  g++ -S pr.i
+  560  g++ -S pr.cpp
+  561  gcc -S pr.cpp
+  562  gcc -S pr.i
+  563  clear
+  564  history
+  565  cd Desktop/cpp_course
+  566  history
+  567  ls
+  568  as pr.s
+  569  ls
+  570  ./a.out
+  571  g++ pr.s
+  572  gcc pr.s
+  573  g++ -o a.a pr.s 
+  574  chmod a+x a.out
+  575  ls
+  576  as pr.s
+  577  chmod a+x a.out
+  578  ./a.out
+  579  ld -o pr a.out
+  580  ls
+  581  ld a.out
+  582  as -pr.o pr.s
+  583  as -o pr.o pr.s
+  584  ld -o pr pr.o
+  585  ld -o pr pr.cpp
+  586  ld -o pr.exe pr.o
+  587  ls
+  588  rm a.out pr.exe
+  589  nano pr.o.save
+  590  rm pr.o.save
+  591  ls
+  592  as -o pr.o pr.s
+  593  ld -o pr pr.o
+  594  cpp -o pr.i pr.cpp 
+  595  g++ -S pr.i
+  596  ls
+  597  ./pr
+  598  /pr.o
+  599  nano pr.o
+  600  clear
+  601  cpp -o pr.i pr.cpp
+  602  g++ pr.i
+  603  ls
+  604  ./a.out
+  605  rm a.out
+  606  ls
+  607  g++ -S pr.i
+  608  ls
+  609  as -o pr.o pr.s
+  610  ls
+  611  ld pr.o
+  612  g++ pr.cpp
+  613  ./a.out
+  614  g++ pr.cpp
+  615  ./a.out
+  616  cpp pr.cpp
+  617  cpp -o pr.i pr.cpp
+  618  g++ -S pr.i
+  619  ls
+  620  as -o pr.o pr.s
+  621  ls
+  622  ld pr.o
+  623  cpp pr.cpp
+  624  cpp -o pr.i pr.cpp
+  625  g++ -S pr.i
+  626  as -o pr.o pr.s
+  627  ld pr.o
+  628  chmod a+x pr.o
+  629  ld pr.o
+  630  ld -o pr.exe pr.o
+  631  g++ -E pr.cpp
+  632  g++ -o pr.i -E pr.cpp
+  633  g++ -S pr.i
+  634  as -o pr.o pr.s
+  635  ld -o pr.exe pr.o
+  636  chmod a+x pr.o
+  637  ld -o pr.exe pr.o
+  638  g++ -o pr.exe pr.o
+  639  ls
+  640  pr.exe
+  641  ./pr.exe
+  642  g++ pr.o
+  643  ls
+  644  rm pr.o pr.exe a.out
+  645  ls
+  646  g++ pr.o
+  647  as pr.s
+  648  ls
+  649  rm a.out
+  650  as -o pr.o pr.s
+  651  g++ -o pr.exe .pr.o
+  652  g++ -o pr.exe pr.o
+  653  ls
+  654  ./pr.exe
+  655  g++ pr.o
+  656  ls
+  657  ./a.out
+  658  g++ -o pr.o pr.s
+  659  gcc -o pr.o pr.s
+  660  g++ -o pr.o pr.s
+  661  gcc -o pr.o pr.s
+  662  gcc --output pr.o pr.s
+  663  g++ -o pr.o pr.s
+  664  g++ --output pr.o pr.s
+  665  g++ --o pr.o pr.s
+  666  g++ --d pr.o pr.s
+  667  g++ -d pr.o pr.s
+  668  g++ --output pr.o pr.s
+  669  g++ -o bail -c pr.cpp
+  670  ls
+  671  g++ bail
+  672  ls
+  673  g++ -o bail -c pr.s
+  674  ls
+  675  rm a.out pr.o bail
+  676  ls
+  677  rm pr.exe
+  678  g++ -o bail -c pr.i
+  679  ls
+  680  g++ -o bail2 -C pr.i
+  681  ls
+  682  ./bail2
+  683  ./bail
+  684  g++ -o bail.exe bail
+  685  ls
+  686  g++ -o bail3 -C pr.s
+  687  ls
+  688  ./bail3
+  689  rm bail bail2 bail3
+  690  ls
+  691  rm bail.exe
+  692  ls
+  693  g++ -o bail -c pr.i
+  694  ls
+  695  g++ -o bail2 -C pr.i
+  696  ls
+  697  g++ -C pr.cpp
+  698  ls
+  699  rm bail bail2 a.out
+  700  g++ -o bail2 -c pr.i
+  701  ls
+  702  g++ -o bail -c pr.o
+  703  as -o pr.o pr.s
+  704  g++ -o bail5 -c pr.o
+  705  ls
+  706  g++ -o bail5 -C pr.o
+  707  ls
+  708  g++ -o bail5 -c pr.s
+  709  gcc -o bail5 -c pr.o
+  710  gcc -o bail5 -c pr.s
+  711  gcc -o bail2 -C pr.i
+  712  ls
+  713  g++ -C pr.cpp
+  714  ls
+  715  rm a.out
+  716  ls
+  717  g++ -C pr.cpp
+  718  ls
+  719  g++ -c pr.cpp
+  720  ls
+  721  g++ -o bubu -c pr.cpp
+  722  ls
+  723  rm a.out bubu
+  724  ls
+  725  rm bail2 bail5
+  726  ls
+  727  g++ -c pr.cpp
+  728  ls
+  729  nano pr.cpp
+  730  nano code1.cpp
+  731  fg
+  732  vs code1.cpp
+  733  vscode code1.cpp
+  734  code code1.cpp
+  735  g++ code1.cpp
+  736  ./a.out
+  737  g++ code2.cpp
+  738  code code2.cpp
+  739  g++ code2.cpp
+  740  ./a.out
+  741  g++ code3.cpp
+  742  code code3.cpp
+  743  g++ code3.cpp
+  744  ./a.out
+  745  g++ code4.cpp
+  746  code code4.cpp
+  747  g++ code4.cpp
+  748  code code5.cpp
+  749  g++ code5.cpp
+  750  ./a.out
+  751  cd Desktop/cpp_course
+  752  ls
+  753  mkdir d_f_4-4-2021
+  754  cd d_f_4-4-2021
+  755  ls
+  756  cp d_f_3-4-2021
+  757  cp -h
+  758  cp --help
+  759  ./..
+  760  cd ./
+  761  cd ./..
+  762  cp d_f_3-4-2021 d_f_4-4-2021
+  763  cp d_flash_3-4-2021 d_f_4-4-2021
+  764  cp -r d_flash_3-4-2021 d_f_4-4-2021
+  765  cd d_f_4-4-2021
+  766  ls
+  767  code code1.cpp
+  768  g++ code1.cpp
+  769  ./a.out
+  770  code code2.cpp
+  771  g++ code2.cpp
+  772  ./a.out
+  773  g++ code2.cpp
+  774  ./a.out
+  775  g++ code2.cpp
+  776  ./a.out
+  777  code code3.cpp
+  778  g++ code3.cpp
+  779  ./a.out
+  780  g++ code3.cpp
+  781  ./a.out
+  782  code code4.cpp
+  783  g++ code4.cpp
+  784  ./a.out
+  785  g++ code4.cpp
+  786  ./a.out
+  787  g++ code4.cpp
+  788  ./a.out
+  789  code code5.cpp
+  790  code code4.cpp
+  791  g++ code5.cpp
+  792  ./a.out
+  793  code code3.cpp
+  794  code code2.cpp
+  795  code code4.cpp
+  796  g++ code5.cpp
+  797  ./a.out
+  798  sudo apt update
+  799  sudo apt upgrade
+  800  sudo apt update
+  801  sudo apt autoclean
+  802  history
+  803  sudo apt autoremove
+  804  mkdir cpp_assignments
+  805  ls
+  806  mv cpp looping assn.docx 
+  807  mv *.docx /cpp_assignments
+  808  mv *.docx cpp_assignments
+  809  ls
+  810  cd cpp_assignments
+  811  ls
+  812  mv "cpp looping assn.docx" /cpp_course
+  813  mv "cpp looping assn.docx" /Desktop
+  814  mv "cpp looping assn.docx" /cpp_course
+  815  cd Desktop/cpp_course
+  816  cd cpp_assignments
+  817  mv cpp\ looping\ assn.docx cpp_course
+  818  ls
+  819  mv cpp\ looping\ assn.docx /cpp_course
+  820  mv "cpp looping assn.docx" /cpp_course
+  821  ls
+  822  mv Switch\ assignment.docx /cpp_course
+  823  sudo su
+  824  sudo mv Switch\ assignment.docx /cpp_course
+  825  ls
+  826  cd cpp_course
+  827  cpp_sourse
+  828  cpp_course
+  829  ./cpp_course
+  830  sudo mv Switch\ assignment.docx /cpp_course
+  831  ls
+  832  mv Switch\ assignment.docx /cpp_course
+  833  mv Switch\ assignment.docx ./cpp_course
+  834  ls
+  835  mv Switch\ assignment.docx /cpp_course
+  836  sudo mv Switch\ assignment.docx ../cpp_course
+  837  mv Switch\ assignment.docx ../cpp_course
+  838  mv Switch\ assignment.docx ../
+  839  ls
+  840  mv Switch\ assignment.docx ../
+  841  cd ./
+  842  cd ../
+  843  ls
+  844  mv "Switch assignment.docx" /cpp_assignments
+  845  mv Swithexit
+  846  mv Switch\ assignment.docx cpp_assignments
+  847  cd Desktop
+  848  code for_loop_char.cpp
+  849  cpp for_loop_char.cpp
+  850  gcc for_loop_char.cpp
+  851  nano for_loop_char.cpp
+  852  gcc for_loop_char.cpp
+  853  nano for_loop_char.cpp
+  854  gcc for_loop_char.cpp
+  855  nano for_loop_char.cpp
+  856  gcc for_loop_char.cpp
+  857  nano for_loop_char.cpp
+  858  gcc for_loop_char.cpp
+  859  nano for_loop_char.cpp
+  860  gcc for_loop_char.cpp
+  861  g++ for_loop_char.cpp
+  862  ./a.out
+  863  history
+  864  ls
+  865  gcc info.C -lstdc++
+  866  gcc for_loop_char.cpp -lstdc++
+  867  ./a.out
+  868  cd Desktop
+  869  gcc for_loop_char.cpp -lstdc++
+  870  ./a.out
+  871  gcc for_loop_char.c
+  872  cd Desktop
+  873  gcc for_loop_char.c
+  874  cd Desktop/
+  875  gcc for_loop_char.c
+  876  code switch.cpp
+  877  ls
+  878  g++ switch.cpp
+  879  ./a.out 
+  880  g++ switch.cpp
+  881  ./a.out 
+  882  g++ switch.cpp
+  883  ./a.out 
+  884  g++ switch.cpp
+  885  ./a.out 
+  886  g++ switch.cpp
+  887  ./a.out 
+  888  cd Desktop/cpp_course
+  889  ls
+  890  ls -l
+  891  ls -al
+  892  ls -i
+  893  ls -ai
+  894  clear
+  895  nano num_break_add.cpp
+  896  code num_break_add.cpp
+  897  g++ num_break_add.cpp
+  898  ./a.out 
+  899  g++ num_break_add.cpp
+  900  ./a.out 
+  901  cd Desktop
+  902  ls
+  903  cd cpp_course
+  904  ls
+  905  cpp num_break_add.cpp 
+  906  clear
+  907  gcc  num_break_add.cpp 
+  908  g++ num_break_add.cpp 
+  909  ./a.out
+  910  g++ num_break_add.cpp 
+  911  ./a.out
+  912  g++ num_break_add.cpp 
+  913  ./a.out
+  914  g++ num_break_add.cpp 
+  915  ./a.out
+  916  g++ num_break_add.cpp 
+  917  ./a.out
+  918  g++ num_break_add.cpp 
+  919  ./a.out
+  920  clea
+  921  clear
+  922  g++ num_break_add.cpp 
+  923  ./a.out
+  924  g++ num_break_add.cpp 
+  925  ./a.out
+  926  g++ num_break_add.cpp 
+  927  ./a.out
+  928  g++ num_break_add.cpp 
+  929  ./a.out
+  930  g++ num_break_add.cpp 
+  931  ./a.out
+  932  g++ num_break_add.cpp 
+  933  ./a.out
+  934  g++ num_break_add.cpp 
+  935  ./a.out
+  936  clear
+  937  ./a.out
+  938  g++ num_break_add.cpp 
+  939  ./a.out
+  940  g++ num_break_add.cpp 
+  941  ./a.out
+  942  g++ num_break_add.cpp 
+  943  ./a.out
+  944  g++ num_break_add.cpp 
+  945  ./a.out
+  946  g++ num_break_add.cpp 
+  947  ./a.out
+  948  g++ num_break_add.cpp 
+  949  ./a.out
+  950  cd Desktop/cpp_course/
+  951  ls
+  952  touch num_break_reverse.cpp
+  953  code num_break_reverse.cpp 
+  954  g++ num_break_reverse.cpp 
+  955  ./a.out 
+  956  g++ num_break_reverse.cpp 
+  957  ./a.out 
+  958  /cpp_cou
+  959  cd cpp_course/
+  960  g++ num_break_reverse.cpp 
+  961  ./a.out 
+  962  g++ num_break_reverse.cpp 
+  963  ./a.out 
+  964  g++ num_break_reverse.cpp 
+  965  ./a.out 
+  966  code pattern1.cpp
+  967  g++ pattern1.cpp 
+  968  ./a.out 
+  969  g++ pattern1.cpp 
+  970  ./a.out 
+  971  g++ pattern1.cpp 
+  972  ./a.out 
+  973  g++ pattern1.cpp 
+  974  ./a.out 
+  975  g++ pattern1.cpp 
+  976  ./a.out 
+  977  g++ pattern1.cpp 
+  978  ./a.out 
+  979  g++ pattern1.cpp 
+  980  ./a.out 
+  981  g++ pattern1.cpp 
+  982  ./a.out 
+  983  g++ pattern1.cpp 
+  984  ./a.out 
+  985  g++ pattern1.cpp 
+  986  ./a.out 
+  987  g++ pattern1.cpp 
+  988  ./a.out 
+  989  g++ pattern1.cpp 
+  990  ./a.out 
+  991  touch code1.cpp
+  992  code code1.cpp
+  993  g++ code1.cpp 
+  994  ./a.out 
+  995  g++ code1.cpp 
+  996  ./a.out 
+  997  g++ code1.cpp 
+  998  ./a.out 
+  999  g++ code1.cpp 
+ 1000  ./a.out 
+ 1001  touch code2.cpp
+ 1002  code code2.cpp
+ 1003  g++ code2.cpp 
+ 1004  ./a.out 
+ 1005  g++ code2.cpp 
+ 1006  ./a.out 
+ 1007  touch code3.cpp
+ 1008  code code3.cpp
+ 1009  g++ code3.cpp 
+ 1010  ./a.out 
+ 1011  g++ code3.cpp 
+ 1012  ./a.out 
+ 1013  touch code4.cpp
+ 1014  code code4.cpp
+ 1015  g++ code4.cpp 
+ 1016  ./a.out 
+ 1017  g++ code4.cpp 
+ 1018  ./a.out 
+ 1019  touch code5.cpp
+ 1020  code code5.cpp
+ 1021  g++ code5.cpp
+ 1022  ./a.out 
+ 1023  g++ code5.cpp
+ 1024  ./a.out 
+ 1025  g++ code5.cpp
+ 1026  ./a.out 
+ 1027  g++ code5.cpp
+ 1028  ./a.out 
+ 1029  g++ code5.cpp
+ 1030  ./a.out 
+ 1031  g++ code5.cpp
+ 1032  ./a.out 
+ 1033  g++ code5.cpp
+ 1034  ./a.out 
+ 1035  g++ code5.cpp
+ 1036  ./a.out 
+ 1037  g++ code5.cpp
+ 1038  ./a.out 
+ 1039  g++ code5.cpp
+ 1040  ./a.out 
+ 1041  g++ code5.cpp
+ 1042  ./a.out 
+ 1043  g++ code5.cpp
+ 1044  ./a.out 
+ 1045  g++ code5.cpp
+ 1046  ./a.out 
+ 1047  g++ code5.cpp
+ 1048  ./a.out 
+ 1049  g++ code1.cpp 
+ 1050  ./a.out 
+ 1051  ./a.out > err.txt
+ 1052  g++ code5.cpp
+ 1053  ./a.out > err.txt
+ 1054  g++ code5.cpp
+ 1055  ./a.out 
+ 1056  g++ code5.cpp
+ 1057  ./a.out 
+ 1058  g++ code5.cpp
+ 1059  ./a.out 
+ 1060  g++ code5.cpp
+ 1061  ./a.out 
+ 1062  g++ code5.cpp
+ 1063  ./a.out 
+ 1064  g++ code5.cpp
+ 1065  ./a.out 
+ 1066  g++ code5.cpp
+ 1067  ./a.out 
+ 1068  g++ code5.cpp
+ 1069  ./a.out 
+ 1070  g++ code5.cpp
+ 1071  ./a.out 
+ 1072  g++ code5.cpp
+ 1073  ./a.out 
+ 1074  g++ code5.cpp
+ 1075  ./a.out 
+ 1076  g++ code5.cpp
+ 1077  ./a.out 
+ 1078  g++ code5.cpp
+ 1079  ./a.out 
+ 1080  g++ code5.cpp
+ 1081  ./a.out 
+ 1082  g++ code5.cpp
+ 1083  ./a.out 
+ 1084  g++ code5.cpp
+ 1085  ./a.out 
+ 1086  g++ code5.cpp
+ 1087  ./a.out 
+ 1088  g++ code5.cpp
+ 1089  ./a.out 
+ 1090  g++ code5.cpp
+ 1091  ./a.out 
+ 1092  g++ code5.cpp
+ 1093  ./a.out 
+ 1094  g++ code5.cpp
+ 1095  ./a.out 
+ 1096  g++ code5.cpp
+ 1097  ./a.out 
+ 1098  clear
+ 1099  g++ code5.cpp
+ 1100  ./a.out 
+ 1101  g++ code5.cpp
+ 1102  ./a.out 
+ 1103  clear
+ 1104  touch code6.cpp
+ 1105  codecode6.cpp
+ 1106  code code6.cpp
+ 1107  g++ code6.cpp
+ 1108  ./a.out 
+ 1109  g++ code6.cpp
+ 1110  ./a.out 
+ 1111  g++ code6.cpp
+ 1112  ./a.out 
+ 1113  g++ code6.cpp
+ 1114  ./a.out 
+ 1115  g++ code6.cpp
+ 1116  ./a.out 
+ 1117  g++ code6.cpp
+ 1118  ./a.out 
+ 1119  touch code7.cpp
+ 1120  code code7.cpp
+ 1121  g++ code6.cpp
+ 1122  ./a.out 
+ 1123  g++ code6.cpp
+ 1124  ./a.out 
+ 1125  g++ code6.cpp
+ 1126  ./a.out 
+ 1127  g++ code6.cpp
+ 1128  ./a.out 
+ 1129  g++ code6.cpp
+ 1130  ./a.out 
+ 1131  g++ code6.cpp
+ 1132  ./a.out 
+ 1133  g++ code6.cpp
+ 1134  ./a.out 
+ 1135  g++ code6.cpp
+ 1136  ./a.out 
+ 1137  g++ code6.cpp
+ 1138  ./a.out 
+ 1139  g++ code7.cpp
+ 1140  ./a.out 
+ 1141  g++ code7.cpp
+ 1142  ./a.out 
+ 1143  g++ code7.cpp
+ 1144  ./a.out 
+ 1145  g++ code7.cpp
+ 1146  ./a.out 
+ 1147  g++ code7.cpp
+ 1148  ./a.out 
+ 1149  g++ code7.cpp
+ 1150  ./a.out 
+ 1151  g++ code7.cpp
+ 1152  ./a.out 
+ 1153  g++ code7.cpp
+ 1154  ./a.out 
+ 1155  g++ code7.cpp
+ 1156  ./a.out 
+ 1157  g++ code7.cpp
+ 1158  ./a.out 
+ 1159  g++ code7.cpp
+ 1160  ./a.out 
+ 1161  g++ code7.cpp
+ 1162  ./a.out 
+ 1163  g++ code7.cpp
+ 1164  ./a.out 
+ 1165  g++ code7.cpp
+ 1166  ./a.out 
+ 1167  g++ code7.cpp
+ 1168  ./a.out 
+ 1169  g++ code7.cpp
+ 1170  ./a.out 
+ 1171  g++ code7.cpp
+ 1172  ./a.out 
+ 1173  g++ code7.cpp
+ 1174  ./a.out 
+ 1175  g++ code7.cpp
+ 1176  ./a.out 
+ 1177  g++ code7.cpp
+ 1178  ./a.out 
+ 1179  g++ code7.cpp
+ 1180  ./a.out 
+ 1181  g++ code7.cpp
+ 1182  ./a.out 
+ 1183  g++ code7.cpp
+ 1184  ./a.out 
+ 1185  g++ code7.cpp
+ 1186  ./a.out 
+ 1187  g++ code7.cpp
+ 1188  ./a.out 
+ 1189  g++ code7.cpp
+ 1190  ./a.out 
+ 1191  g++ code7.cpp
+ 1192  ./a.out 
+ 1193  g++ code7.cpp
+ 1194  ./a.out 
+ 1195  clear
+ 1196  history > commands.txt

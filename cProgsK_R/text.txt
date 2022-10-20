@@ -1,0 +1,2 @@
+THIS TEXT IS ORIGINALLY IN UPPER CASE USED IN LOWERCASE.C PROGRAM
+this text is originally in lower case
